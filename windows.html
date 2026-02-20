@@ -218,6 +218,20 @@
     </p>
   </div>
 
+  <!-- SANDBOXING -->
+  <div class="card full">
+    <h2>WSL2 Sandboxing Setup</h2>
+    <p class="note" style="font-size: 13px;">
+      Claude Code has an optional sandbox mode (<code>/sandbox</code>) that limits what it can access for extra safety. On WSL2, it needs two packages installed first:
+    </p>
+    <div class="launch-block" style="margin-top: 8px; margin-bottom: 0;">
+      <span class="cmd">sudo apt-get install bubblewrap socat</span>
+    </div>
+    <p class="note" style="font-size: 13px;">
+      This is optional — Claude Code works fine without it. On macOS, sandboxing works out of the box.
+    </p>
+  </div>
+
   <!-- IF SOMETHING GOES WRONG -->
   <div class="card full">
     <h2>If Something Goes Wrong</h2>
